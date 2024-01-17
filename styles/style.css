@@ -162,14 +162,14 @@ margin: 0;
     font-size: 12pt;
 }
 .link-lots {
-    position: relative; 
+    position: relative;
     top: 25px;
     margin-left: 74px;
     font-size: 13pt;
-    }
+}
 .link-lots:hover {
     text-decoration: none;
-    }
+}
 
 /* 3 Секция */
 .section3 {
@@ -191,7 +191,7 @@ margin: 0;
 }
 .title-section3 {
     text-transform: uppercase;
-    font-weight: bold; 
+    font-weight: bold;
     margin-top: 142px;
     font-size: 24pt;
 }
