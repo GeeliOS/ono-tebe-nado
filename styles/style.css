@@ -11,11 +11,11 @@ header {
     list-style: circle;
     text-transform: lowercase;
 }
-.header-menu-item:hover{
+.header-menu-item:hover {
     text-decoration: none;
 }
 
-.none-list-style{
+.none-list-style {
 padding: 0;
 margin: 0;
 }
@@ -28,36 +28,36 @@ margin: 0;
 }
 /* Меню */
 /* 1 Секция */
-.section1{
+.section1 {
     width: 100%;
     height: 640px;
     background: url("../images/cover.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.backgr{
+.backgr {
     grid-template-rows: repeat(4, 22% 16.5% 16% 31.5% 20%);
     height: 640px;
     background-color: rgba(0,0,0,0.6);
     display: grid;
     grid-template-columns: repeat(3, 43% 35.5% 21%);
 }
-.text1-section{
+.text1-section {
     justify-content: start;
     margin-left: 40px;
 }
-.text2-section{
+.text2-section {
     justify-content: center;
     margin-right: 10px;
     
 }
-.text3-section{
+.text3-section {
     justify-content: end;
     margin-right: 7px;
 }
 .text1-section,
 .text2-section,
-.text3-section{
+.text3-section {
     grid-column-start: 1;
     grid-column-end: 4;
     display: flex;
@@ -67,7 +67,7 @@ margin: 0;
     font-weight: bold;
     letter-spacing: 35px;
 }
-.text4-section{
+.text4-section {
     margin-top: 10px;
     margin-right: 79px;
     grid-column-start: 1;
@@ -94,14 +94,14 @@ margin: 0;
     color: black;
   }
 /* 2 Секция */
-.lots-title{
+.lots-title {
     margin-top: 149px;
     margin-left: 75px;
     text-transform: uppercase;
     font-size: 25pt;
     font-weight: bold;
 }
-.section2{
+.section2 {
     display: grid;
     grid-template-columns: repeat(3, 31% 30.9% 30.6%);
     height: 380px;
@@ -109,66 +109,66 @@ margin: 0;
     margin-top: 21px;
     margin-left: 40px;
 }
-.lots1{
+.lots1 {
     position: relative;
     background: url("../images/card-lot-01.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.lots2{
+.lots2 {
     position: relative;
     background: url("../images/card-lot-02.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.lots3{
+.lots3 {
     position: relative;
     background: url("../images/card-lot-03.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.backgr-lots{
+.backgr-lots {
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.6);
     color: white;
 }
-.lot{
+.lot {
     display: block;
     margin: 45px 30px 49px 35px;
 }
 
-.title-lot{
+.title-lot {
     font-size: 115%;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: underline;
 }
-.text-lot1{
+.text-lot1 {
     margin-top: 170px;
     font-size: 12pt;
 }
-.text-lot2{
+.text-lot2 {
     margin-top: 30px;
     font-size: 12pt;
 }
-.text-lot3{
+.text-lot3 {
     margin-top: 70px;
     font-size: 12pt;
 }
-.link-lots{
+.link-lots {
     Position: relative; 
     top: 25px;
     margin-left: 74px;
     font-size: 13pt;
     }
-.link-lots:hover{
+.link-lots:hover {
     text-decoration: none;
     }
 
 /* 3 Секция */
-.section3{
+.section3 {
     margin-top: 120px;
     display: grid;
     grid-template-columns: repeat(2, 35% 62%);
@@ -176,7 +176,7 @@ margin: 0;
     height: 618px;
 
 }
-.ball{
+.ball {
     background-color: rgba(0,0,0,1);
     border-radius: 50%;
     margin-top: 58px;
@@ -185,19 +185,19 @@ margin: 0;
     width: 47%;
     height: 76%;
 }
-.title-section3{
+.title-section3 {
     text-transform: uppercase;
     font-weight: bold; 
     margin-top: 142px;
     font-size: 24pt;
 }
-.text-section3{
+.text-section3 {
     font-size: 12pt;
     grid-column: 2/3;
     grid-row: 2/3;
 }
 /* подвал */
-footer{
+footer {
     display: grid;
     grid-template-columns: repeat(3, 40% 20% 40.5%);
     align-items: center;
@@ -215,13 +215,13 @@ footer{
     list-style: none;
     text-transform: lowercase;
 }
-.footer-menu-item:hover{
+.footer-menu-item:hover {
     text-decoration: none;
 }
-.text-footer-center{
+.text-footer-center {
     align-content: start
 }
-.section4{
+.section4 {
     display: grid;
     grid-template-columns: repeat(3, 80px);
     align-items: center;
@@ -230,6 +230,6 @@ footer{
 .text-underline-m {
     text-underline-offset: 4px;
 }
-.text-underline{
+.text-underline {
     text-decoration: underline;
 }
