@@ -23,7 +23,11 @@ margin: 0;
     list-style: none;
 }
 .contacts {
+    display: flex;
+    flex-direction: column;
     justify-self: end;
+    line-height: 135%;
+    width: 240px;
     font-style: normal;
 }
 /* Меню */
@@ -158,7 +162,7 @@ margin: 0;
     font-size: 12pt;
 }
 .link-lots {
-    Position: relative; 
+    position: relative; 
     top: 25px;
     margin-left: 74px;
     font-size: 13pt;
