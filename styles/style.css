@@ -66,7 +66,7 @@ margin: 0;
 }
 .text1_2-section {
     justify-content: start;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     display: flex;
     grid-column-start: 2;
     grid-column-end: 3;
@@ -80,7 +80,7 @@ margin: 0;
 }
 .text2-section {
     justify-content: end;
-    margin-right: 4px;
+    margin-right: 24px;
     grid-column-start: 2;
     grid-column-end: 3;
     display: flex;
@@ -107,7 +107,6 @@ margin: 0;
 
 .text3-section {
     justify-content: end;
-    margin-right: 39px;
     grid-column-start: 1;
     grid-column-end: 4;
     display: flex;
@@ -115,7 +114,7 @@ margin: 0;
     text-transform: uppercase;
     font-size: 100px; 
     font-weight: bold;
-    letter-spacing: 32px;
+    letter-spacing: 42px;
 }
 
 .text4-section {
