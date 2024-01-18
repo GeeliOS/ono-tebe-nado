@@ -123,12 +123,11 @@ header {
 }
 .section2 {
     display: grid;
-    grid-template-columns: repeat(3, 31.03% 31% 31%);
-    height: 448px;
+    grid-template-columns: repeat(auto-fill, minmax(430px, 432px));
+    grid-template-rows: repeat(2, 448px);
     gap: 23px;
     margin-top: 28px;
     margin-left: 50px;
-
 }
 .lots1 {
     position: relative;
@@ -157,7 +156,7 @@ header {
 }
 .lot {
     display: block;
-    margin: 51px 40px 50px 40px;
+    margin: 49px 40px 52px 40px;
 }
 
 .title-lot {
@@ -169,10 +168,10 @@ header {
 }
 .text-lot1 {
     margin-top: 58%;
-    line-height: 116%;
+    line-height: 120%;
 }
 .text-lot2 {
-    margin-top: 9%;
+    margin-top: 10%;
     font-weight: 400;
     line-height: 119%;
 }
