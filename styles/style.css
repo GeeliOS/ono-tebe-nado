@@ -129,14 +129,15 @@ header {
 .section2 {
     margin-top: 175px;
     margin-left: 50px;
+    width: 100%;
 }
 .lots {
+    color: white;
     margin-top: 27px;
     display: grid;
-    grid-template-columns: repeat(3, 430px 432px 432px);
+    grid-template-columns: repeat(3, 30% 30% 30%);
     height: 451px;
-    gap: 23px;
-    color: white;
+    gap: 22px;
 }
 .lot-title{
     font-size: 22px;
