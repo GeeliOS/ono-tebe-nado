@@ -10,8 +10,7 @@ header {
     column-gap: 25px;
     list-style: circle;
     text-transform: lowercase;
-    font-size: 18px; 
-    
+    font-size: 18px;
 }
 .header-menu-item:hover {
     text-decoration: none;
@@ -30,7 +29,7 @@ margin: 0;
     justify-self: end;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400; 
+    font-weight: 400;
 }
 /* Меню */
 /* 1 Секция */
