@@ -36,6 +36,7 @@ header {
 /* Меню */
 /* 1 Секция */
 .section1 {
+    position: relative;
     width: 100%;
     height: 757px; 
     background: url("../images/cover.jpg");
@@ -44,112 +45,72 @@ header {
 }
 .backgr {
     display: grid;
-    grid-template-columns: repeat(6, 21.2% 7.2% 29.4% 13% 9% 23.2%);
-    grid-template-rows: repeat(5, 21.5% 16.9% 15.7% 32% 13.9%);
-    height: 757px;
     background-color: rgba(0,0,0,0.6);
-}
-.text1-section {
-    justify-content: end;
-    display: flex;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    letter-spacing: 31px;
-}
-.text1_2-section {
-    justify-content: end;
-    display: flex;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-.text2-section {
-    justify-content: end;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    display: flex;
-    letter-spacing: 32px;
-}
-.text2_2-section {
-    padding-left: 23px;
-    justify-content: start;
-    display: flex;
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 4;
-}
-
-.text3-section {
-    justify-content: start;
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    display: flex;
-}
-
-.text3_2-section {
-    display: flex;
-    grid-column-start: 6;
-    grid-column-end: 7;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    letter-spacing: 29px;
-}
-
-.text4-section {
-    margin-top: 13px;
-    margin-right: 79px;
-    grid-column-start: 1;
-    grid-column-end: 6;
-    grid-row-start: 5;
-    grid-row-end: 6;
-    display: flex;
-    justify-content: end;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 22px;
+    position: relative;
+    padding: 165px 50px 50px;
+    color: white;
     font-style: normal;
-    font-weight: 400;
-    line-height: 28px;
-    text-transform: uppercase;
-    word-spacing: 20px;
 }
-.text1-section,
-.text1_2-section,
-.text2-section,
-.text2_2-section,
-.text3-section,
-.text3_2-section{
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    font-size: 100px; 
-    font-weight: bold;
-}
-
 .button {
-    font-family: Raleway, sans-serif;
-    background: rgba(0,0,0,0);
+    padding: 12px 32px;
+    margin-left: 78px;
+    background: transparent;
     border: 1px solid white;
+    font-family: Raleway, sans-serif;
+    color: white;
     cursor: pointer;
-    color: #FFF;
-    text-align: center;
     font-size: 22px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    text-transform: uppercase; 
-    height: 34%;
-    width: 84%;
+    text-transform: uppercase;
   }
   .button:hover {
     background: rgba(255,255,255);
     color: black;
   }
+ .cover {
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom:135px;
+    letter-spacing: 30px;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+.cover-description {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.cover-subtitle {
+    text-align: center;
+    line-height: 28px;
+    word-spacing: 18px;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.text-center {
+    text-align: center;
+}
+
+.text-end {
+    text-align: end;
+}
+.title-text {
+    display: block;
+    margin-top: 20px;
+}
+
+.title-text:first-child {
+    line-height: 115%;
+    margin: 0;
+}
+.spacing-extended {
+    letter-spacing: 60px;
+}
+.no-spacing {
+    letter-spacing: normal;
+}
+
 /* 2 Секция */
 .lots-title {
     margin-top: 149px;
