@@ -124,10 +124,11 @@ header {
 .section2 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(430px, 432px));
-    grid-template-rows: repeat(2, 448px);
+    height: 448px;
     gap: 23px;
     margin-top: 28px;
-    margin-left: 50px;
+    margin-left: 3%;
+
 }
 .lots1 {
     position: relative;
