@@ -44,7 +44,7 @@ header {
 }
 .backgr {
     display: grid;
-    grid-template-columns: repeat(6, 18.2% 7.2% 29.4% 6% 12% 27.2%);
+    grid-template-columns: repeat(6, 18.2% 7.2% 29.4% 13% 9% 23.2%);
     grid-template-rows: repeat(5, 21.5% 16.9% 15.7% 32% 13.9%);
     height: 757px;
     background-color: rgba(0,0,0,0.6);
@@ -74,7 +74,8 @@ header {
     letter-spacing: 32px;
 }
 .text2_2-section {
-    justify-content: end;
+    padding-left: 23px;
+    justify-content: start;
     display: flex;
     grid-column-start: 4;
     grid-column-end: 5;
@@ -83,8 +84,7 @@ header {
 }
 
 .text3-section {
-    justify-content: end;
-    /* padding-left: 10px; */
+    justify-content: start;
     grid-column-start: 5;
     grid-column-end: 6;
     grid-row-start: 4;
@@ -93,7 +93,6 @@ header {
 }
 
 .text3_2-section {
-    padding-left: 61px;
     display: flex;
     grid-column-start: 6;
     grid-column-end: 7;
