@@ -113,8 +113,7 @@ header {
 
 /* 2 Секция */
 .lots-title {
-    margin-top: 179px;
-    margin-left: 6.2%;
+    margin-left: 40px;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -122,13 +121,15 @@ header {
     text-transform: uppercase; 
 }
 .section2 {
+    margin-top: 179px;
+    margin-left: 50px;
+}
+.lots {
+    margin-top: 27px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(430px, 432px));
-    height: 448px;
+    grid-template-rows: repeat(2, 451px);
     gap: 23px;
-    margin-top: 28px;
-    margin-left: 3%;
-
 }
 .lots1 {
     position: relative;
