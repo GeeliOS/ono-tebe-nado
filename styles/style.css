@@ -127,7 +127,7 @@ header {
     text-transform: uppercase; 
 }
 .section2 {
-    padding-top: 175px;
+    padding-top: 12%;
     padding-left: 2.4%;
     width: 100%;
 }
@@ -150,13 +150,13 @@ header {
     padding-top: 50px;
 }
 .lot1{
-    margin: 200px 40px 0 40px;
+    margin: 47% 10% 0 10%;
 }
 .lot2{
-    margin: 30px 40px 0 40px;
+    margin: 7% 10% 0 10%;
 }
 .lot3{
-    margin: 79px 40px 0 40px;
+    margin: 18% 10% 0 10%;
 }
 .lot1,
 .lot2,
