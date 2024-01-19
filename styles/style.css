@@ -127,8 +127,7 @@ header {
     text-transform: uppercase; 
 }
 .section2 {
-    margin-top: 175px;
-    margin-left: 50px;
+    margin: 175px 50px 0;
     width: 100%;
 }
 .lots {
