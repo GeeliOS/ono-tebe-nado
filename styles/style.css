@@ -200,8 +200,8 @@ header {
 /* 3 Секция */
 .section3 {
     display: grid;
-    grid-template-columns: repeat(2, 35% 62%);
-    grid-template-rows: repeat(2, 41% 50%);
+    grid-template-columns: repeat(2, 35% 61%);
+    grid-template-rows: repeat(2, 40% 50%);
     height: 618px;
 
 }
@@ -211,7 +211,7 @@ header {
     padding-top: 64px;
     margin-left: 28.5%;
     width: 48%;
-    height: 95%;
+    height: 98%;
 }
 .title-section3 {
     display: flex;
@@ -233,20 +233,29 @@ header {
 footer {
     display: grid;
     grid-template-columns: repeat(3, 40% 20% 40.5%);
-    align-items: center;
-    /* margin: -16px 43px; */
+    padding-top: 52px;;
 }
 
 .contacts-footer {
-    padding-left: 40px;
-    justify-self: start;
-    font-style: normal;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 24.3px;
 }
 .footer-menu-list {
+    display: flex;
+    justify-content: center;
     text-align:center;
     column-gap: 25px;
-    list-style: none;
     text-transform: lowercase;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.no-style {
+    list-style-type: none;
 }
 .footer-menu-item:hover {
     text-decoration: none;
@@ -256,9 +265,8 @@ footer {
 }
 .section4 {
     display: grid;
-    grid-template-columns: repeat(3, 80px);
-    align-items: center;
-    margin-left: 220px;
+    grid-template-columns: repeat(3, 30%);
+    margin-left: 263px;
 }
 .text-underline-m {
     text-underline-offset: 4px;
