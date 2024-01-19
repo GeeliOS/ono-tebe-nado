@@ -15,14 +15,18 @@ header {
     font-weight: 400;
     line-height: 24.3px;
 }
+
 .header-menu-item:hover {
     text-decoration: none;
 }
+.not-list-style {
+    list-style: none;
+}
 
-.none-list-style {
+.list-style {
     margin-right: 7px;
 }
-.none-list-style:hover {
+.list-style:hover {
     list-style: none;
 }
 .contacts {
@@ -39,28 +43,17 @@ header {
     position: relative;
     z-index: 1;
     width: 100%;
-    background: url("../images/cover.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin-bottom: 180px;
     display: grid;
-    position: relative;
     padding: 165px 50px 50px;
     color: white;
     font-style: normal;
 }
-.section-cover:before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color:rgba(0, 0, 0, .6);
+
 }
 .section-text-cover {
     position: relative;
@@ -152,31 +145,20 @@ header {
     flex-basis: 430px;
     background: lightgray no-repeat center;
     background-size: cover;
-}
-.lots-list-item:before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color:rgba(0, 0, 0, .6);
+    z-index: 1;
 }
 
 .lots-image-philm {
-    background-image: url(../images/card-lot-01.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/card-lot-01.jpg);
 }
 
 .lots-image-book {
-    background-image: url(../images/card-lot-02.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/card-lot-02.jpg);
 
 }
 
 .lots-imge-painting {
-    background-image: url(../images/card-lot-03.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/card-lot-03.jpg);
 }
 
 
@@ -195,7 +177,7 @@ header {
     text-transform: uppercase;
     text-decoration:  underline;
 }
-.link{
+.link {
     text-decoration: none;
 }
 .lot-description-philm {
@@ -267,9 +249,9 @@ header {
 /* подвал */
 footer {
     display: grid;
-    grid-template-columns: repeat(3, 40% 20% 40.5%);
-    padding-top: 179px;
-    padding-top: 158px;
+    grid-template-columns: repeat(3, 40% 20% 40%);
+    padding-top: 157px;
+    margin-bottom: 90px;
 }
 
 .contacts-footer {
