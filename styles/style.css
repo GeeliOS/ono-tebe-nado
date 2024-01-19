@@ -60,7 +60,7 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color:rgba(0, 0, 0, .5);
+    background-color:rgba(0, 0, 0, .6);
 }
 .section-text-cover {
     position: relative;
@@ -163,7 +163,7 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color:rgba(0, 0, 0, .5);
+    background-color:rgba(0, 0, 0, .6);
 }
 
 .lots-image-philm {
@@ -195,7 +195,9 @@ header {
     text-transform: uppercase;
     text-decoration:  underline;
 }
-
+.link{
+    text-decoration: none;
+}
 .lot-description-philm {
     font-size: 20px;
     font-weight: 400;
@@ -259,7 +261,7 @@ header {
     grid-row: 2/3;
 }
 .text-about-section {
-    margin-top: 28px;
+    margin-bottom: 25px;
 }
 
 /* подвал */
@@ -267,6 +269,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 40% 20% 40.5%);
     padding-top: 179px;
+    padding-top: 158px;
 }
 
 .contacts-footer {
