@@ -127,16 +127,17 @@ header {
     text-transform: uppercase; 
 }
 .section2 {
-    margin: 175px 50px 0;
+    padding-top: 175px;
+    padding-left: 50px;
     width: 100%;
 }
 .lots {
     color: white;
     margin-top: 27px;
     display: grid;
-    grid-template-columns: repeat(3, 30% 30% 30%);
+    grid-template-columns: repeat(3, 31% 31% 31%);
     height: 451px;
-    gap: 22px;
+    gap: 23px;
 }
 .lot-title{
     font-size: 22px;
